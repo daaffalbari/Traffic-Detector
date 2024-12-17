@@ -31,8 +31,8 @@ class Config:
     LOG_FILE = './logs/traffic_light_log.txt'
     
     # Parameter deteksi
-    MIN_CONTOUR_AREA = 700
-    MORPHOLOGY_KERNEL_SIZE = (5, 5)
-    BRIGHTNESS_THRESHOLD = 50
+    MIN_CONTOUR_AREA = 5000
+    MORPHOLOGY_KERNEL_SIZE = (10, 10)
+    BRIGHTNESS_THRESHOLD = 10
     # Konfigurasi video
     FOURCC_CODEC = 'mp4v'
